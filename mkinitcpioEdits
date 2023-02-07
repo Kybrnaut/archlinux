@@ -1,0 +1,5 @@
+/etc/mkinitcpio.conf
+
+nvidia nvidia_modeset nvidia_uvm nvidia_drm
+MODULES=(dm-raid dm_integrity raid0 raid1 raid10)
+HOOKS=(base systemd ... block lvm2 filesystems)

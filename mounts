@@ -1,0 +1,3 @@
+mount /dev/md0 -o relatime,inode64,logbsize=256k,log, nobarrier /dev/md0 /mnt 
+mount /dev/nvme2n1p1 /mnt/boot
+swapon /dev/nvme2n1p2
