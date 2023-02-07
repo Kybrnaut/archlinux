@@ -1,0 +1,1 @@
+raid0.default_layout=2 nvidia
